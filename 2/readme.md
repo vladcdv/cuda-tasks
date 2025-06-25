@@ -2,7 +2,7 @@
 
 ## Conclusions
 
-Naive GPU implementation seems to be better better than CPU implementation for images larger than 512x512.
+Naive GPU implementation seems to be better than CPU implementation for images larger than 512x512.
 
 For shared memory implementation, tile sizes don't seem to have a measurable impact on performance between 8x8 and 16x16 tiles. However, 32x32 does appear to be slightly worse.
 
